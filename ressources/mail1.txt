@@ -1,5 +1,13 @@
-Salut,
+Bonjour,
 
-je suis bien content de cette journée qui s'annonce radieuse
+voici la liste des courses:
+
+- Carottes
+- Tomates
+- Tête de moine
+- Chocolat
+- Oeufs
+
+Merci,
 
 G.

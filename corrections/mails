@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Combine input files in one
+MAILS=$(cat $@)
+
+# Remove capitals
+MAILS=$(echo "$MAILS" | tr '[A-Z]' '[a-z]')
+
+# sort the mails lines
+MAILS=$(echo "$MAILS" | sort -k 1.1,1.1)
+
+# remove redundant items
+MAILS=$(echo "$MAILS" | uniq)
+
+# save output
+echo "$MAILS" > result.txt
